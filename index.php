@@ -12,7 +12,7 @@ $_SESSION['stemmer'] = (isset($_SESSION['stemmer']) ? $_SESSION['stemmer'] : 'of
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Re-Search - Metasearch Engine</title>
+    <title>Wide Search</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -49,7 +49,7 @@ $_SESSION['stemmer'] = (isset($_SESSION['stemmer']) ? $_SESSION['stemmer'] : 'of
       <!-- Search Area -->
       <div class="hero-unit">
         <center>
-		<h1 class="font-effect-shadow-multiple" style = "color:#150C63; text-align:center;text-shadow: 2px 2px #999999; font-family: 'Audiowide';">Re-Search</h1></br>
+		<h1 class="font-effect-shadow-multiple" style = "color:#150C63; text-align:center;text-shadow: 2px 2px #999999; font-family: 'Audiowide';">Wide Search</h1></br>
 		<form method="get" action="./search.php">
 			<input style="font-weight:bold;" type="text" name="q" size = "10" required />
 			<input type="hidden" name="offset" value = "1" required /></br>
@@ -71,7 +71,7 @@ $_SESSION['stemmer'] = (isset($_SESSION['stemmer']) ? $_SESSION['stemmer'] : 'of
       <hr>
 
       <footer>
-        <p>© Re-Search 2013</p>
+        <p>© Wide Search 2017</p>
       </footer>
 
     </div> <!-- /container -->
